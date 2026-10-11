@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuikSnap Privacy Policy</title>
+<style>
+  /* Layout: a single reading column, amber only on the heading rule and links — the app's own palette, lightened for print-like reading. */
+  :root {
+    --bg: #FBF9F4;
+    --fg: #1C1A16;
+    --muted: #6B665C;
+    --line: #E4DFD3;
+    --accent: #B8791A;
+    --panel: #F2EEE4;
+    --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141414; --fg: #F2F2F2; --muted: #9A9A9A; --line: #2E2E2E; --accent: #F2B134; --panel: #1F1F1F; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141414; --fg: #F2F2F2; --muted: #9A9A9A; --line: #2E2E2E; --accent: #F2B134; --panel: #1F1F1F; color-scheme: dark;
+  }
+  body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+  main { max-width: 42rem; margin: 0 auto; padding-block: 3rem 4rem; padding-inline: 20px; }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+  .eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+  h1 { font-family: var(--display); font-size: 2.25rem; font-weight: 600; line-height: 1.15; margin: .35rem 0 .5rem; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 14px; }
+  h2 { font-family: var(--display); font-size: 1.35rem; font-weight: 600; margin: 2.25rem 0 .6rem; text-wrap: balance; }
+  p, li { max-width: 65ch; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .35rem; }
+  a { color: var(--accent); }
+  .summary { background: var(--panel); border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 0 0 .5rem; }
+  .summary p { margin: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: .75rem 0; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .tablewrap { overflow-x: auto; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .92em; background: var(--panel); padding: .1em .35em; border-radius: 4px; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  body { padding: 0 20px; }
+  .home { display:inline-block; margin-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">QuikSnap for iOS</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective October 10, 2026 · Published by Oleg Shportko</div>
+  </header>
+
+  <div class="summary">
+    <p><strong>In short:</strong> QuikSnap takes photos and uploads them to a Google Drive folder your team chooses. The photos go directly from your phone to Google Drive. We do not run a server, we do not see your photos, and we do not sell or share any data.</p>
+  </div>
+
+  <h2>What QuikSnap does</h2>
+  <p>QuikSnap is a camera app for field teams. You pick a project folder in Google Drive, take photos, and the app uploads each photo to that folder. The 2-in-1 and 3-in-1 modes stitch several shots into a single image before uploading.</p>
+
+  <h2>Information the app uses</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Data</th><th>Why</th><th>Where it goes</th></tr>
+      <tr><td>Photos you take in the app</td><td>To upload them to the project folder you selected</td><td>Your Google Drive only. Kept on the phone until the upload finishes, then deleted from the phone.</td></tr>
+      <tr><td>Your name (as you type it in Settings)</td><td>Added to each photo's filename so the team can see who took it</td><td>Stored on the phone; appears in the filename in Google Drive.</td></tr>
+      <tr><td>Google account sign-in tokens</td><td>So the app can upload to Google Drive on your behalf</td><td>Stored in the iOS Keychain on your phone. Never sent anywhere except to Google.</td></tr>
+      <tr><td>Names and IDs of your Google Drive folders</td><td>To show the folder and project list</td><td>Read from Google Drive while the app is open; the selected folder is remembered on the phone.</td></tr>
+    </table>
+  </div>
+
+  <h2>Google Drive access</h2>
+  <p>When you sign in, Google asks you to allow QuikSnap to access Google Drive. The app uses that access to list folders, create project folders, and upload photos. QuikSnap does not read, modify, or delete files other than the folders and photos it manages for you.</p>
+  <p>QuikSnap's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p>You can remove QuikSnap's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, or by tapping <em>Sign out</em> in the app's Settings.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not operate any server. Photos and data move only between your phone and Google.</li>
+    <li>We do not collect analytics, crash reports, advertising identifiers, or location.</li>
+    <li>We do not sell, rent, or share your information with anyone.</li>
+    <li>We do not use your photos or data for advertising or to train machine-learning models.</li>
+  </ul>
+
+  <h2>Camera permission</h2>
+  <p>QuikSnap asks for camera access so you can take photos. It does not access your existing photo library.</p>
+
+  <h2>Data retention</h2>
+  <p>Photos stay on the phone only until they have been uploaded; a photo that fails to upload is kept so it can be retried, and is removed after a successful upload. Deleting the app removes everything it stored on the phone, including sign-in tokens. Photos already uploaded remain in your Google Drive, where you control them.</p>
+
+  <h2>Children</h2>
+  <p>QuikSnap is a work tool for adults and is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted at this address with an updated effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: email <code>osauto99@gmail.com</code>.</p>
+
+  <footer><a class="home" href="index.html">QuikSnap home</a> · <a href="terms.html">Terms of use</a><br>QuikSnap · Bundle ID <code>com.weddingminimalist.fieldsnap</code></footer>
+</main>
+</body>
+</html>
